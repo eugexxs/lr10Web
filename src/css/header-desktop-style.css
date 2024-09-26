@@ -1,0 +1,82 @@
+body{
+    margin:0;
+}
+
+.header{
+    width:100vw;
+    height:586px;
+    background-color:var(--lightLimeColor);
+    padding:2.5em 8em;
+    box-sizing: border-box;
+    font-family:'Work sans';
+}
+
+.header__upper-part{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:3em;
+}
+
+.header__upper-part__left{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+    color:white;
+}
+
+.header__upper-part__left > *{
+    margin:0 0.3em;
+}
+
+.header__upper-part__right{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    color:white;
+    font-size:20px;
+}
+
+.header__middle-part{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:auto;
+}
+
+.header__middle-part__info{
+    width:416px;
+    color:white;
+}
+
+.header__middle-part__info > h1{
+    font-size:39px;
+    font-family: 'Crimson Text';
+    letter-spacing: 0.05em;
+}
+
+.header__middle-part__info > h4{
+    font-size:16px;
+    letter-spacing:0.25em;
+}
+
+.header__middle-part__info > p{
+    opacity:75%;
+    letter-spacing: normal;
+}
+
+.header__middle-part__button{
+    width:170px;
+    height:48px;
+    border-radius:5px;
+    transition:0.2s;
+    border:0;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.header__middle-part__button:hover{
+    background-color: lightcyan;
+}

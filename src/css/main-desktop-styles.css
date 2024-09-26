@@ -1,0 +1,11 @@
+.main{
+    width:100vw;
+    height:auto;
+    padding:2em 8em;
+}
+
+.main__learn-more > h4{
+    font-size:16px;
+    letter-spacing: 0.2em;
+    color:var(--lightLimeColor);
+}
