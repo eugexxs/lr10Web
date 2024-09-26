@@ -1,5 +1,7 @@
 body{
     margin:0;
+    font-family:'Work sans';
+    outline:4px solid black;
 }
 
 .header{
@@ -53,7 +55,7 @@ body{
 
 .header__middle-part__info > h1{
     font-size:39px;
-    font-family: 'Crimson Text';
+    font-family: var(--fontForHeaders);
     letter-spacing: 0.05em;
 }
 

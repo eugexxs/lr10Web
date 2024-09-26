@@ -1,11 +1,53 @@
 .main{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
     width:100vw;
     height:auto;
     padding:2em 8em;
+    box-sizing: border-box;
 }
 
-.main__learn-more > h4{
+.main__learn-more{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__learn-more > *{
+    outline:4px solid green;
+}
+
+.main__learn-more__header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    width:25%;
+    height:auto;
+
+    /* margin-bottom:2em; */
+    /* из-за этой хуйни происходит смещение вправо, выясни почему*/
+}
+
+.main__learn-more__header > h4{
     font-size:16px;
     letter-spacing: 0.2em;
     color:var(--lightLimeColor);
+}
+
+.main__learn-more__header > h1{
+    font-family: var(--fontForHeaders);
+}
+
+.main__learn-more__header > p{
+    font-size: 20px;
+}
+
+.main__learn-more__logo-bar{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
 }

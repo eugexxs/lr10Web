@@ -32,7 +32,18 @@ function App() {
       </header>
       <main className = "main">
         <div className = "main__learn-more">
-          <h4>PARTNERS</h4>
+          <div className = "main__learn-more__header">
+            <h4>PARTNERS</h4>
+            <h1>Lorem Ipsum Dolor</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          </div>
+          <div className="main__learn-more__logo-bar">
+            <img src="src/imgs/google-logo.svg" alt="google" />
+            <img src="src/imgs/microsoft-logo.svg" alt="microsoft" />
+            <img src="src/imgs/airbnb-logo.svg" alt="airbnb" />
+            <img src="src/imgs/facebook-logo.svg" alt="facebook" />
+            <img src="src/imgs/spotify-logo.svg" alt="spotify" />
+          </div>
         </div>
       </main>
     </>
@@ -40,4 +51,4 @@ function App() {
 }
 
 export default App
-// TODO: Сделать часть main и отцентрировать main__learn-more
+// TODO: Сделать часть main, 32 строка файла main-desktop-styles.css
