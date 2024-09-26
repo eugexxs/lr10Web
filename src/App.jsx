@@ -44,6 +44,10 @@ function App() {
             <img src="src/imgs/facebook-logo.svg" alt="facebook" />
             <img src="src/imgs/spotify-logo.svg" alt="spotify" />
           </div>
+          <button className = "main__learn-more__button">Learn More</button>
+        </div>
+        <div className="main__learn-more-with-groupImg">
+
         </div>
       </main>
     </>
@@ -51,4 +55,5 @@ function App() {
 }
 
 export default App
-// TODO: Сделать часть main, 32 строка файла main-desktop-styles.css
+// 25.09 TODO: Сделать часть header
+// 26.09 TODO: Сделать часть main__learn-more-with-groupIMG

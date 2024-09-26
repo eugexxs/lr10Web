@@ -15,9 +15,9 @@
     align-items: center;
 }
 
-.main__learn-more > *{
+/* .main__learn-more > *{
     outline:4px solid green;
-}
+} */
 
 .main__learn-more__header{
     display:flex;
@@ -28,9 +28,11 @@
     width:25%;
     height:auto;
 
-    /* margin-bottom:2em; */
-    /* из-за этой хуйни происходит смещение вправо, выясни почему*/
 }
+
+.main__learn-more > *{
+    margin-bottom: 3em;
+}   
 
 .main__learn-more__header > h4{
     font-size:16px;
@@ -50,4 +52,24 @@
     display: flex;
     justify-content: space-between;
     width:100%;
+}
+
+.main__learn-more__button{
+    width:170px;
+    height:48px;
+    background-color: black;
+    border:0;
+    transition:0.2s;
+    cursor:pointer;
+    border-radius:5px;
+    color:white;
+    font-size:20px;
+}
+
+.main__learn-more__button:hover{
+    width:180px;
+    height:54px;
+    background-color: white;
+    color:black;
+    border:1px solid black;
 }
