@@ -5,3 +5,13 @@
     --lightLimeColor: #74C69D;
     --fontForHeaders:'Crimson Text'
 }
+
+h1{
+    font-family: var(--fontForHeaders);
+    font-size:40px;
+}
+
+h4{
+    font-size:16px;
+    letter-spacing: 0.2em;
+}

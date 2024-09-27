@@ -44,11 +44,37 @@ function App() {
             <img src="src/imgs/facebook-logo.svg" alt="facebook" />
             <img src="src/imgs/spotify-logo.svg" alt="spotify" />
           </div>
-          <button className = "main__learn-more__button">Learn More</button>
+          <button className = "main__learn-more__button black-button">Learn More</button>
         </div>
-        <div className="main__learn-more-with-groupImg">
-
+        <div className="main__learn-more-part">
+          <picture>
+            <img src = "src/imgs/group.svg"/>
+          </picture>
+          <div className = "main__learn-more__info">
+              <h1>
+                Lorem ipsum dolor sit amet consectetur 
+              </h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
+              </p><br/><br/>
+              <button className = "black-button">Learn more</button>
+          </div>
         </div>
+        <div className="main__learn-more-part">
+          <div className = "main__learn-more__info">
+              <h1>
+                Lorem ipsum dolor sit amet consectetur 
+              </h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
+              </p><br/><br/>
+              <button className = "black-button">Learn more</button>
+          </div>
+          <picture>
+            <img src = "src/imgs/human-with-pc.svg"/>
+          </picture>
+        </div>
+        <div className = "main__team"></div>
       </main>
     </>
   )
@@ -56,4 +82,5 @@ function App() {
 
 export default App
 // 25.09 TODO: Сделать часть header
-// 26.09 TODO: Сделать часть main__learn-more-with-groupIMG
+// 26.09 TODO: Сделать части main__learn-more-part
+//27.09 TODO: Сделать часть main_team
