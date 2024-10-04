@@ -1,0 +1,22 @@
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    height:15vh;
+    box-sizing: border-box;
+
+    background-color: var(--lightLimeColor);
+
+    margin-top:3em;
+    padding:2em 8em;
+}
+
+.footer__icons{
+    display:flex;
+    gap:20px;
+}
+
+.footer__info{
+    color:white;
+}

@@ -1,6 +1,7 @@
 import './css/fonts-and-vars.css'
 import './css/header-desktop-style.css'
 import './css/main-desktop-styles.css'
+import "./css/footer-desktop-styles.css"
 
 import Talent from './talents-component/talents.jsx'
 
@@ -116,7 +117,16 @@ function App() {
         </div>
       </main>
       <footer>
-        
+        <div className = "footer__icons">
+          <img src="src/footer-logos/facebkook.svg" alt="facebook" />
+          <img src="src/footer-logos/insta.svg" alt="instagram" />
+          <img src="src/footer-logos/twitter.svg" alt="twitter" />
+          <img src="src/footer-logos/pinterest.svg" alt="pinterest" />
+          <img src="src/footer-logos/tiktok.svg" alt="tiktok" />
+          <img src="src/footer-logos/whatsapp.svg" alt="whatsapp" />
+          <img src="src/footer-logos/youtube.svg" alt="youtube" />
+        </div>
+        <div className = "footer__info">© Start, 2022. All rights reserved.</div>
       </footer>
     </>
   )
